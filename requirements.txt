@@ -1,0 +1,50 @@
+### For langchain and its related packages, if they are not standard PyPI packages, you may need a direct link or specify them differently
+langchain
+langchain-chroma
+#langchain==0.0.244
+#langchainhub
+langchain_openai
+langchain_community
+langchain_anthropic
+langchain-chroma
+
+### The following requirements for local run
+python-dotenv
+ipython  # For display, Markdown, Latex functionalities
+ipdb
+
+### The following requirements for local LLM
+gpt4all # for embedding
+# glob  # Assuming you're using glob, but glob2 is an extended version compatible with more patterns
+PyPDF2  # For PDF parsing
+pypdf # For PDF parsing
+chromadb  # Specific package, ensure correct name and version as needed
+          # by hand
+
+# semantic_text_splitter # currently not used for semantic text splitter
+
+psycopg2-binary
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+
+### For streamlit app run
+#streamlit
+streamlit==1.25.0
+pysqlite3-binary
+
+statsmodels
+unstructured
+markdown
+
+
+# hugging face
+transformers==4.40.2
+huggingface-hub==0.23.0
+pdfminer.six
+langchain-core
+htbuilder
+#pip install "unstructured[local-inference]"
+unstructured-inference
