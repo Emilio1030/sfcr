@@ -7,6 +7,7 @@ langchain_openai
 langchain_community
 langchain_anthropic
 langchain-chroma
+langchain-experimental
 
 ### The following requirements for local run
 python-dotenv
@@ -33,7 +34,7 @@ wheel>=0.29
 ### For streamlit app run
 #streamlit
 streamlit==1.25.0
-pysqlite3-binary
+
 
 statsmodels
 unstructured
@@ -48,3 +49,5 @@ langchain-core
 htbuilder
 #pip install "unstructured[local-inference]"
 unstructured-inference
+
+#pysqlite3-binary
