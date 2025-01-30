@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sfcr.egg-info/PKG-INFO
+sfcr.egg-info/SOURCES.txt
+sfcr.egg-info/dependency_links.txt
+sfcr.egg-info/not-zip-safe
+sfcr.egg-info/requires.txt
+sfcr.egg-info/top_level.txt
